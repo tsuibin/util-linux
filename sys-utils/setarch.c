@@ -188,7 +188,7 @@ static struct arch_domain *init_arch_domains(void)
 		{PER_LINUX,	"mips64",	"mips64"},
 #endif
 #if defined(__riscv64__) || defined(__riscv__)
-		{PER_LINUX,	"mips64",	"mips64"},
+		{PER_LINUX,	"riscv64",	"riscv64"},
 #endif
 #if defined(__alpha__)
 		{PER_LINUX,	"alpha",	"alpha"},
